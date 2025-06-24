@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: sql-server
+    env: docker
+    plan: free
+    autoDeploy: false
+    ports:
+      - 1433
